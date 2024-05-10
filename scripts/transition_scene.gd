@@ -12,8 +12,8 @@ func _ready():
 func _on_animation_finished(anim_name):
 	if anim_name == "fade_in":
 		on_transition_finished.emit()
-		animation_player.play("START")
-	elif anim_name == "START":
+		animation_player.play("fade_out")
+	elif anim_name == "fade_out":
 		color_rect.visible = false
 	
 func transition():
