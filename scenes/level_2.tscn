@@ -496,4 +496,4 @@ position = Vector2(384, 32)
 
 [node name="Door" parent="." instance=ExtResource("7_rkjk8")]
 position = Vector2(1024, -64)
-next_scene_name = "level_1"
+next_scene_name = "level_3"
